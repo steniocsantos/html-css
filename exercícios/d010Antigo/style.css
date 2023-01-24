@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'bebas-neue';
+    src: url('fontes/BebasNeue-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'bebas-neue';
+    src: url('fontes/BebasNeue-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #2fa866, #063d1e);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+header > h1 {
+    font-family: 'bebas-neue';
+    color: white;
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 0px 0px rgba(0, 0, 0, 0.247);
+}
+
+nav {
+    background-color: #063d1e;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.253);
+}
+
+
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;    
+}
+
